@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1603440116 source:d:\esaip\c c++\projets c++\tp_jeu\main.cpp
+	<iostream>
+	<string>
+	<bits/stdc++.h>
+	"equipement.h"
+	"guerrier.h"
+	"inventaire.h"
+	"personnage.h"
+	"donjon.h"
+	"marchand.h"
+
+1603441557 source:d:\esaip\c c++\projets c++\tp_jeu\src\inventaire.cpp
+	"inventaire.h"
+	"equipement.h"
+	<iostream>
+	<string>
+
+1603440427 d:\esaip\c c++\projets c++\tp_jeu\include\inventaire.h
+	"equipement.h"
+	"inventaire.h"
+	<iostream>
+	<list>
+	<string>
+
+1603439930 source:d:\esaip\c c++\projets c++\tp_jeu\src\personnage.cpp
+	<iostream>
+	"personnage.h"
+	<string>
+
+1603439930 d:\esaip\c c++\projets c++\tp_jeu\include\personnage.h
+	<iostream>
+	<list>
+	<string>
+	"personnage.h"
+	"equipement.h"
+	"inventaire.h"
+	"marchand.h"
+
+1603439120 source:d:\esaip\c c++\projets c++\tp_jeu\src\equipement.cpp
+	"equipement.h"
+	"inventaire.h"
+	<iostream>
+	<string>
+
+1603439134 d:\esaip\c c++\projets c++\tp_jeu\include\equipement.h
+	<string>
+
+1603433328 source:d:\esaip\c c++\projets c++\tp_jeu\src\guerrier.cpp
+	"guerrier.h"
+
+1603292989 d:\esaip\c c++\projets c++\tp_jeu\include\guerrier.h
+	<string>
+	<Personnage.h>
+
+1603443647 source:d:\esaip\c c++\projets c++\tp_jeu\src\marchand.cpp
+	"marchand.h"
+	<iostream>
+	<string>
+
+1603438777 d:\esaip\c c++\projets c++\tp_jeu\include\marchand.h
+	<iostream>
+	<list>
+	<string>
+	<bits/stdc++.h>
+	"inventaire.h"
+	"equipement.h"
+
+1603441538 source:d:\esaip\c c++\projets c++\tp_jeu\src\donjon.cpp
+	<iostream>
+	<list>
+	<string>
+	"donjon.h"
+	"personnage.h"
+	"equipement.h"
+	"inventaire.h"
+	"guerrier.h"
+	<bits/stdc++.h>
+
+1603291932 d:\esaip\c c++\projets c++\tp_jeu\include\donjon.h
+	<iostream>
+	"personnage.h"
+	<string>
+
+1603293745 source:d:\esaip\c c++\projets c++\tp_jeu\src\monstre.cpp
+	"monstre.h"
+
+1603293745 d:\esaip\c c++\projets c++\tp_jeu\include\monstre.h
+	<Personnage.h>
+
