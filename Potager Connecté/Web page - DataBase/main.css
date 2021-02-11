@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	margin-left: 3%;
+}
+body {
+	background-color: #f8f9fa;
+}
+.img {
+    padding: .25rem;
+    background-color: #fff;
+	margin: auto;
+	height: 200px;
+	width: 200px;
+	z-index:1;
+}
+.temp{
+	position: absolute;
+    top: auto;
+    right: 1%;
+}
+.footer {
+	width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+	text-align: center;
+}
+#gear{
+	width: 25px;
+    height: 25px;
+}
+.svg-circleplus 
+{ 
+	height: 50px;
+    stroke: white;
+}
+.cercle {
+	height: 50px;
+    stroke: black;
+	margin-top: 2%;
+}
+#btn{
+	width: fit-content;
+    margin: auto;	
+}
+.addingPlant{
+	background-color: rgba(0,0,0,0.70);
+}
+#addingDiv {
+	display: none;
+}
+
+.card-text {
+	text-align: center;
+}
+
+.card {
+	height: 434px;
+	width: -webkit-fill-available;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 50%;
+}
+.modal-content h3 {
+	text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#btn2 {
+	width: max-content;
+    margin: auto;
+}
+
+.col {
+  	background-color: transparent;
+  	perspective: 1000px;
+	height: 434px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.col:hover .card {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #3a6904;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-back p, .flip-card-back h5{
+	margin-top:40px;
+}
+
+
+#deletedDiv:hover .card {
+	transform: none;
+}
+.div_close_btn{
+	width: min-content;
+    position: absolute;
+    right: 2px;
+}
+.close_btn{
+	width: 40px;
+    height: 40px;
+	stroke: white;
+  	fill: transparent;
+  	stroke-linecap: square;
+  	stroke-width: 5;
+}
+.navbar-brand {
+	position: absolute;
+    left: 18%;
+	width: 78%;
+}
